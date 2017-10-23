@@ -50,4 +50,12 @@ class GotAMotorTest < Minitest::Test
     assert_match(/wrong number of arguments/, err.message)
   end
 
+  def test_mileage
+    assert(mileage(400, 10) == 40)
+  end
+
+  def test_mileage_new_car
+    assert(mileage(0, 0) == 0)
+  end
+
 end

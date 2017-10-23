@@ -18,3 +18,8 @@ end
 def use_headlights(brightness = "low-beam")
   "Turning on #{brightness} headlights\nWatch out for deer!"
 end
+
+def mileage(miles_driven, gas_used)
+  return 0 if gas_used.zero?
+  miles_driven / gas_used
+end
