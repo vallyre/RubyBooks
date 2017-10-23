@@ -1,3 +1,12 @@
+def order_soda(flavor, size = "medium", quantity = 1)
+  if quantity == 1
+    plural = "soda"
+  else
+    plural = "sodas"
+  end
+  "#{quantity} #{size} #{flavor} #{plural}, coming right up!"
+end
+
 def accelerate
   "Stepping on the gas\nSpeeding up"
 end
