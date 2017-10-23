@@ -13,4 +13,8 @@ class GotAMotorTest < Minitest::Test
     assert(sound_horn == "Pressing the horn button\nBeep! beep!")
   end
 
+  def test_use_headlights
+    assert(use_headlights("high-beam") == "Turning on high-beam headlights\nWatch out for deer!")
+  end
+
 end

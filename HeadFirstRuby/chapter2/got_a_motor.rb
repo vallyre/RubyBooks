@@ -5,3 +5,7 @@ end
 def sound_horn
   "Pressing the horn button\nBeep! beep!"
 end
+
+def use_headlights(brightness)
+  "Turning on #{brightness} headlights\nWatch out for deer!"
+end
