@@ -1,4 +1,3 @@
-require 'byebug'
 class GetNumber
 
   attr_reader :number
